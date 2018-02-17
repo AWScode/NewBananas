@@ -2,23 +2,21 @@ public class Student{
 
   public static String name;
   public static int grade;
-  public static String tie color;
-  public static String classes;
-  public static String nationality;
-  public static boolean dormstudent;
+  public static String house;
+  public static String subjects;
+  public static String specie;
 
-  public Student(String n, int g, String t, String c, String lity, boolean d){
-    name = n;
-    grade = g;
-    tie color = t;
-    classes = c;
-    nationality = lity;
-    dormstudent = d;
+  public Student(String n, int g, String h, String s, String e){
+    this.name = n;
+    this.grade = g;
+    this.house = h;
+    this.subjects = s;
+    this.specie = e;
 
   }
 
   public static void SayHi(){
-    System.out.println("Hey, how's it going?")
+    System.out.println("Hey, how's it going?");
   }
 
   public static String getName(){
@@ -29,16 +27,16 @@ public class Student{
     return grade;
   }
 
-  public static String getTieColor(){
-    return tie color;
+  public static String getHouse(){
+    return house;
   }
 
-  public static String getClasses(){
-    return classes;
+  public static String getSubjects(){
+    return subjects;
   }
 
-  public static String getNationality(){
-    return nationality;
+  public static String getSpecie(){
+    return specie;
   }
 
   public static void setName(String n){
@@ -49,16 +47,16 @@ public class Student{
     grade = g;
   }
 
-  public static void setTieColor(String t){
-    tie color = t;
+  public static void setHouse(String h){
+    house = h;
   }
 
-  public static void setClasses(String c){
-    classes = c;
+  public static void setSubjects(String s){
+    subjects = s;
   }
 
-  public static void setNationality(String lity){
-    nationality = lity;
+  public static void setSpecie(String e){
+    specie = e;
   }
 
 }
